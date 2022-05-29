@@ -31,11 +31,11 @@
                   <span><b>Requirements</b></span>
                 </a>
               </li>
-              <li>
+              {{-- <li>
                 <a>
                   <span>Verify</span>
                 </a>
-              </li>
+              </li> --}}
               <li>
                 <a>
                   <span>Database</span>
@@ -48,7 +48,7 @@
               </li>
             </ul>
           </div>
-          
+
           @if(phpversion() < "7.3.0")
               <div class='notification is-danger' style='padding:12px;'><i class='fa fa-times'></i> Current PHP version is {{phpversion()}}! minimum PHP 7.3.0 or higher required.</div>";
           @else
@@ -58,10 +58,10 @@
               <div class='notification is-danger' style='padding:12px;'><i class='fa fa-times'></i> MySQLi PHP extension missing!</div>
           @else
               <div class='notification is-success' style='padding:12px;'><i class='fa fa-check'></i> MySQLi PHP extension available</div>
-          @endif 
+          @endif
 
           @if(phpversion() >= "7.3.0" || extension_loaded('mysqli'))
-             <a href="verify" class="button is-link gen-env">Next</a>
+             <a href="databaseinst" class="button is-link gen-env">Next</a>
           @else
              <a href="#" class="button is-link" disabled>Next</a>
           @endif

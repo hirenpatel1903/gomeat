@@ -31,11 +31,11 @@
                   <span>Requirements</span>
                 </a>
               </li>
-              <li>
+              {{-- <li>
                 <a>
                   <span>Verify</span>
                 </a>
-              </li>
+              </li> --}}
               <li class="is-active">
                 <a>
                   <span><b>Database</b></span>
@@ -48,7 +48,7 @@
               </li>
             </ul>
           </div>
-          
+
           <form action="databaseVerifyPost" method="POST" >
              {{csrf_field()}}
             <div style='text-align: center;'>

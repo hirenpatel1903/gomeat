@@ -19,17 +19,17 @@ use Illuminate\Http\Request;
 class InstallController extends Controller
 {
     public function requirement()
-    {      
-      
-        
+    {
+
+
         $currentURL =  url("/");
 
         \Artisan::call('config:cache');
         \Artisan::call('config:clear');
-       
+
         $appUrl = env('APP_URL');
         if($appUrl == ""){
-            envUpdate('APP_URL', $currentURL);  
+            envUpdate('APP_URL', $currentURL);
             \Artisan::call('config:cache');
         }
 
@@ -40,7 +40,7 @@ class InstallController extends Controller
     {
         return view('installer.verify');
     }
-    
+
     public function verifyPost(Request $request)
     {
         $license_code = null;
@@ -72,9 +72,9 @@ class InstallController extends Controller
 
     public function databaseinst(Request $request)
     {
-        if (!session()->has('status')) {
+        if (session()->has('status')) {
             return redirect('requirement');
-        }    
+        }
 
         $dberror = env('DB_ERROR');
         if ($dberror == 1) {
@@ -86,19 +86,19 @@ class InstallController extends Controller
     }
 
     public function databasePost(Request $request)
-    {  
+    {
         $dataArray = array( "DB_HOST" => $request->db_host,
             "DB_DATABASE" => $request->db_name,
             "DB_USERNAME" => $request->db_user,
             "DB_PASSWORD" => $request->db_pass,
             "DB_ERROR" => ''
-        );       
+        );
 
         foreach ($dataArray as $key => $value) {
             envUpdate($key, $value);
-        }               
+        }
 
-        return view('installer.databaseCheck');        
+        return view('installer.databaseCheck');
 
     }
 
@@ -111,7 +111,7 @@ class InstallController extends Controller
             $seeder = new \Database\Seeders\DbInstallSeeder();
             $seeder->run();
         }
-        else {       
+        else {
             $dataArray = array("DB_HOST" => '',
                 "DB_DATABASE" => '',
                 "DB_USERNAME" => '',
@@ -121,14 +121,14 @@ class InstallController extends Controller
 
             foreach ($dataArray as $key => $value) {
                 envUpdate($key, $value);
-            }   
+            }
 
             return redirect('databaseinst');
 
         }
 
         return view('installer.finish');
-    }    
+    }
 
 
     public function verifyLicense(Request $request)
@@ -138,11 +138,11 @@ class InstallController extends Controller
 
         if($license1){
             $verify  = $licenseApi->verify_license(false, $license1->license, $license1->client);
-            
+
             $status = $verify["status"] ? "active" : "inactive";
 
             $now = \Carbon\Carbon::now();
-            DB::update('update licensebox set status = ?, updated_at=now() where id = ?',[$status,$license1->id]);                   
+            DB::update('update licensebox set status = ?, updated_at=now() where id = ?',[$status,$license1->id]);
 
             if($status == "inactive"){
                 $license=$license1->license;
@@ -153,11 +153,11 @@ class InstallController extends Controller
 
             return redirect('installFinish');
         }
-    }    
+    }
 
     public function installFinish(Request $request)
     {
-        return view('installer.finish');     
-    }        
-    
+        return view('installer.finish');
+    }
+
 }

@@ -31,11 +31,11 @@
                   <span>Requirements</span>
                 </a>
               </li>
-              <li>
+              {{-- <li>
                 <a>
                   <span>Verify</span>
                 </a>
-              </li>
+              </li> --}}
               <li>
                 <a>
                   <span>Database</span>
@@ -50,7 +50,7 @@
           </div>
           <center>
             <p><strong>Application is successfully installed.</strong></p><br>
-            <p><strong>                 
+            <p><strong>
                   <a href="{{ env('APP_URL') }}">Click Here to go</a>
                 </strong>
               </p>

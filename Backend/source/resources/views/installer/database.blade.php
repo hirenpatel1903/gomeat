@@ -31,11 +31,11 @@
                   <span>Requirements</span>
                 </a>
               </li>
-              <li>
+              {{-- <li>
                 <a>
                   <span>Verify</span>
                 </a>
-              </li>
+              </li> --}}
               <li class="is-active">
                 <a>
                   <span><b>Database</b></span>
@@ -52,7 +52,7 @@
           @if ($message = Session::get('error'))
               <center>
                 <p><strong style="color:red;" >{{ $message }}</strong></p><br>
-              </center>  
+              </center>
           @endif
 
           <form action="databasePost" method="POST">
