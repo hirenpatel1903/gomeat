@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      "datatables.net-select@1.3.1",
+      "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html"
+    ]
+  ],
+  "_from": "datatables.net-select@1.3.1",
+  "_id": "datatables.net-select@1.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-PeVd/hlAX58QzL0+mGvxnXP7ylLtzZMeAots/uZkQi+6c/KI6JuP8LCJoEMHAsSjQM/BnG7Uw8E1YGOz1tZpQQ==",
+  "_location": "/datatables.net-select",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "datatables.net-select@1.3.1",
+    "name": "datatables.net-select",
+    "escapedName": "datatables.net-select",
+    "rawSpec": "1.3.1",
+    "saveSpec": null,
+    "fetchSpec": "1.3.1"
+  },
+  "_requiredBy": [
+    "/",
+    "/datatables.net-select-bs4"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-select/-/datatables.net-select-1.3.1.tgz",
+  "_spec": "1.3.1",
+  "_where": "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net": "^1.10.15",
+    "jquery": ">=1.7"
+  },
+  "description": "Select for DataTables ",
+  "files": [
+    "js/**/*.js"
+  ],
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "select",
+    "selection",
+    "DataTables",
+    "jQuery",
+    "table",
+    "DataTables"
+  ],
+  "license": "MIT",
+  "main": "js/dataTables.select.js",
+  "name": "datatables.net-select",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables-Select.git"
+  },
+  "version": "1.3.1"
+}

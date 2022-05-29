@@ -1,0 +1,5 @@
+product_id,quantity,unit,base_mrp,base_price,description,ean
+1,1,KG,200,197,best quality of berries.,232432432
+2,1,Bunch,50,40,fresh spinach 1 small bunch.,23432545
+2,1,ltr,60,58,fresh cow milk.,42352434532
+3,1,Dozen,60,57,best quality eggs.,2353254325

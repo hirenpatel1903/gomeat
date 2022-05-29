@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "kbw-countdown@2.1.1",
+      "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html"
+    ]
+  ],
+  "_from": "kbw-countdown@2.1.1",
+  "_id": "kbw-countdown@2.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-ZajqAXV1tTuW81o7t37lhsSeynE=",
+  "_location": "/kbw-countdown",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "kbw-countdown@2.1.1",
+    "name": "kbw-countdown",
+    "escapedName": "kbw-countdown",
+    "rawSpec": "2.1.1",
+    "saveSpec": null,
+    "fetchSpec": "2.1.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/kbw-countdown/-/kbw-countdown-2.1.1.tgz",
+  "_spec": "2.1.1",
+  "_where": "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html",
+  "bugs": {
+    "url": "https://github.com/kbwood/countdown/issues"
+  },
+  "dependencies": {},
+  "description": "Mirror for https://github.com/kbwood/countdown",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-qunit": "~1.2.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-jsdoc": "~2.1.0",
+    "grunt-qunit-istanbul": "~0.6.0",
+    "grunt-text-replace": "~0.4.0",
+    "grunt-zip": "~0.17.1",
+    "matchdep": "~0.3.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "homepage": "https://github.com/kbwood/countdown#readme",
+  "license": "MIT",
+  "name": "kbw-countdown",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbwood/countdown.git"
+  },
+  "version": "2.1.1"
+}

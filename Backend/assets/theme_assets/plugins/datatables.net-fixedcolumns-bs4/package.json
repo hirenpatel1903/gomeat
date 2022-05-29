@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      "datatables.net-fixedcolumns-bs4@3.3.1",
+      "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html"
+    ]
+  ],
+  "_from": "datatables.net-fixedcolumns-bs4@3.3.1",
+  "_id": "datatables.net-fixedcolumns-bs4@3.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-6k4IGPmo44gBFNvelOan7JWLISNjGUzwOa2l0UqNFS7Ms2SfgipykHBAvrMOm86Fuw2YRlk2HF5X815PXDYmLw==",
+  "_location": "/datatables.net-fixedcolumns-bs4",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "datatables.net-fixedcolumns-bs4@3.3.1",
+    "name": "datatables.net-fixedcolumns-bs4",
+    "escapedName": "datatables.net-fixedcolumns-bs4",
+    "rawSpec": "3.3.1",
+    "saveSpec": null,
+    "fetchSpec": "3.3.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-fixedcolumns-bs4/-/datatables.net-fixedcolumns-bs4-3.3.1.tgz",
+  "_spec": "3.3.1",
+  "_where": "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net-bs4": "^1.10.15",
+    "datatables.net-fixedcolumns": "3.3.1",
+    "jquery": ">=1.7"
+  },
+  "description": "FixedColumns for DataTables with styling for [Bootstrap 4](http://getbootstrap.com/)",
+  "files": [
+    "css/**/*.css",
+    "js/**/*.js"
+  ],
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "fixed columns",
+    "DataTables",
+    "jQuery",
+    "table",
+    "Bootstrap 4"
+  ],
+  "license": "MIT",
+  "main": "js/fixedColumns.bootstrap4.js",
+  "name": "datatables.net-fixedcolumns-bs4",
+  "style": "css/fixedColumns.bootstrap4.css",
+  "version": "3.3.1"
+}

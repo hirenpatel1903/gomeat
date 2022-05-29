@@ -1,0 +1,174 @@
+{
+  "project_info": {
+    "project_number": "204765166565",
+    "project_id": "gomeat-a2949",
+    "storage_bucket": "gomeat-a2949.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204765166565:android:0bd2fa660620d01c0acd0c",
+        "android_client_info": {
+          "package_name": "com.gomeat.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204765166565-gef3qiffioflkdd74ctkc03pdbhaonmg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gomeat.app",
+            "certificate_hash": "48f97620ed433b637b0cf57774c84f25aa69d7c7"
+          }
+        },
+        {
+          "client_id": "204765166565-tmqe3c6sb1e0iaf83rstrgu9kv1cime8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gomeat.app",
+            "certificate_hash": "503d61c841587184ad3aa27de435ef7cd298d785"
+          }
+        },
+        {
+          "client_id": "204765166565-90lhvqgfe92rd2s4esbcudaacre9jqdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRXD26aJi3Z-mArXeduHcM4OXP7KLTYM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204765166565-90lhvqgfe92rd2s4esbcudaacre9jqdu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "204765166565-ejjqnphl440ln7mgj8jf8fajej8eapbg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gomeat.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204765166565:android:83563a76268b030b0acd0c",
+        "android_client_info": {
+          "package_name": "com.gomeatdelivery.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204765166565-0pm2a8deutd0d5ecp2pvj6jivm1gsuk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gomeatdelivery.app",
+            "certificate_hash": "6df6f6380d7a5e403ab2729521a752c1b3478abf"
+          }
+        },
+        {
+          "client_id": "204765166565-90lhvqgfe92rd2s4esbcudaacre9jqdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRXD26aJi3Z-mArXeduHcM4OXP7KLTYM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204765166565-90lhvqgfe92rd2s4esbcudaacre9jqdu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "204765166565-ejjqnphl440ln7mgj8jf8fajej8eapbg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gomeat.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204765166565:android:b562318425b399440acd0c",
+        "android_client_info": {
+          "package_name": "com.gomeatstore.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204765166565-77lm7rga2u4e311c405hq4a0foaihj3o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gomeatstore.app",
+            "certificate_hash": "48f97620ed433b637b0cf57774c84f25aa69d7c7"
+          }
+        },
+        {
+          "client_id": "204765166565-jh4rcjvapnb6jab2pfm6qvktdj8oqfk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gomeatstore.app",
+            "certificate_hash": "6df6f6380d7a5e403ab2729521a752c1b3478abf"
+          }
+        },
+        {
+          "client_id": "204765166565-ooognf98d8kuoan8nh000ue0sdv7jlur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gomeatstore.app",
+            "certificate_hash": "1f936bcb9bb0b9c127049e2bd8f78cf770726746"
+          }
+        },
+        {
+          "client_id": "204765166565-t5266k3it5jk6idv559qagtmu3lkl7p0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gomeatstore.app",
+            "certificate_hash": "503d61c841587184ad3aa27de435ef7cd298d785"
+          }
+        },
+        {
+          "client_id": "204765166565-90lhvqgfe92rd2s4esbcudaacre9jqdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRXD26aJi3Z-mArXeduHcM4OXP7KLTYM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204765166565-90lhvqgfe92rd2s4esbcudaacre9jqdu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "204765166565-ejjqnphl440ln7mgj8jf8fajej8eapbg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gomeat.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

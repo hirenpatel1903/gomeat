@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GoGrocer Driver</string>
+    <string name="default_notification_channel_id">1232</string>
+    <string name="map_key">AIzaSyB2kvOckQn8vJlqi8PPnbOzK5dCf-xg3eQ</string>
+</resources>

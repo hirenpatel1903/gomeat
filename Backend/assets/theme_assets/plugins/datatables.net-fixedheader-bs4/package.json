@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "datatables.net-fixedheader-bs4@3.1.7",
+      "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html"
+    ]
+  ],
+  "_from": "datatables.net-fixedheader-bs4@3.1.7",
+  "_id": "datatables.net-fixedheader-bs4@3.1.7",
+  "_inBundle": false,
+  "_integrity": "sha512-ahaiBOJ7OeJSMLUll7zXA03j1dvuHC3BvlCQhDZkG+vDrfGFdldd6zOhjPRdHZpmLArGGB6V270Rml8Yst3opg==",
+  "_location": "/datatables.net-fixedheader-bs4",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "datatables.net-fixedheader-bs4@3.1.7",
+    "name": "datatables.net-fixedheader-bs4",
+    "escapedName": "datatables.net-fixedheader-bs4",
+    "rawSpec": "3.1.7",
+    "saveSpec": null,
+    "fetchSpec": "3.1.7"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-fixedheader-bs4/-/datatables.net-fixedheader-bs4-3.1.7.tgz",
+  "_spec": "3.1.7",
+  "_where": "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net-bs4": "^1.10.15",
+    "datatables.net-fixedheader": "3.1.7",
+    "jquery": ">=1.7"
+  },
+  "description": "FixedHeader for DataTables with styling for [Bootstrap 4](http://getbootstrap.com/)",
+  "files": [
+    "css/**/*.css",
+    "js/**/*.js"
+  ],
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "fixed headers",
+    "sticky",
+    "DataTables",
+    "jQuery",
+    "table",
+    "Bootstrap 4"
+  ],
+  "license": "MIT",
+  "main": "js/fixedHeader.bootstrap4.js",
+  "name": "datatables.net-fixedheader-bs4",
+  "style": "css/fixedHeader.bootstrap4.css",
+  "version": "3.1.7"
+}

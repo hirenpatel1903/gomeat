@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      "pwstrength-bootstrap@3.0.8",
+      "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html"
+    ]
+  ],
+  "_from": "pwstrength-bootstrap@3.0.8",
+  "_id": "pwstrength-bootstrap@3.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-NrtljZHmAZhsiGuH8mh/FpiY8DP2LFgBYzd7bvCrtVaCBSBLKc0MAum/+Zj+YyvVdFq5YUNoLgvlkhEW5suIfQ==",
+  "_location": "/pwstrength-bootstrap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "pwstrength-bootstrap@3.0.8",
+    "name": "pwstrength-bootstrap",
+    "escapedName": "pwstrength-bootstrap",
+    "rawSpec": "3.0.8",
+    "saveSpec": null,
+    "fetchSpec": "3.0.8"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pwstrength-bootstrap/-/pwstrength-bootstrap-3.0.8.tgz",
+  "_spec": "3.0.8",
+  "_where": "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html",
+  "author": {
+    "name": "Alejandro Blanco",
+    "email": "alejandro.b.e@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ablanco/jquery.pwstrength.bootstrap/issues"
+  },
+  "description": "jQuery plugin for Twitter Bootstrap that provides rulesets for visualy displaying the quality of a users typed in password.",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-eslint": "^22.0.0",
+    "grunt-jasmine-node": "^0.3.1",
+    "grunt-shell": "^3.0.1",
+    "jsdom": "^9.12.0"
+  },
+  "homepage": "https://github.com/ablanco/jquery.pwstrength.bootstrap",
+  "keywords": [
+    "bootstrap",
+    "password",
+    "strength",
+    "meter",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "license": "(GPL-3.0 OR MIT)",
+  "name": "pwstrength-bootstrap",
+  "peerDependencies": {
+    "bootstrap": ">=2.0.0",
+    "jquery": ">=1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ablanco/jquery.pwstrength.bootstrap.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "3.0.8"
+}

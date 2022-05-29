@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "datatables.net-keytable-bs4@2.5.2",
+      "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html"
+    ]
+  ],
+  "_from": "datatables.net-keytable-bs4@2.5.2",
+  "_id": "datatables.net-keytable-bs4@2.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-Wy0f0VNWMCqnqyZmR4l+jfXdBWJG2hJu2HaSwJuNR/r+N/m0P73MbmKIsOlFxmFF+b6u0DgOXb84Oux9Pzzz/A==",
+  "_location": "/datatables.net-keytable-bs4",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "datatables.net-keytable-bs4@2.5.2",
+    "name": "datatables.net-keytable-bs4",
+    "escapedName": "datatables.net-keytable-bs4",
+    "rawSpec": "2.5.2",
+    "saveSpec": null,
+    "fetchSpec": "2.5.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-keytable-bs4/-/datatables.net-keytable-bs4-2.5.2.tgz",
+  "_spec": "2.5.2",
+  "_where": "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net-bs4": "^1.10.15",
+    "datatables.net-keytable": "2.5.2",
+    "jquery": ">=1.7"
+  },
+  "description": "KeyTable for DataTables with styling for [Bootstrap 4](http://getbootstrap.com/)",
+  "files": [
+    "css/**/*.css",
+    "js/**/*.js"
+  ],
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "spreadsheet",
+    "excel",
+    "keyboard",
+    "DataTables",
+    "jQuery",
+    "table",
+    "Bootstrap 4"
+  ],
+  "license": "MIT",
+  "main": "js/keyTable.bootstrap4.js",
+  "name": "datatables.net-keytable-bs4",
+  "style": "css/keyTable.bootstrap4.css",
+  "version": "2.5.2"
+}

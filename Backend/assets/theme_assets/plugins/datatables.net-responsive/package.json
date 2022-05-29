@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "datatables.net-responsive@2.2.5",
+      "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html"
+    ]
+  ],
+  "_from": "datatables.net-responsive@2.2.5",
+  "_id": "datatables.net-responsive@2.2.5",
+  "_inBundle": false,
+  "_integrity": "sha512-AuF28BJRQWfke0cwZwgJB5+WHgoDCDAnW59TJWX4JAXYes3iFrJA6mNHWw46Up3bqUJVI2ZxJoKTGpoEHm5hNA==",
+  "_location": "/datatables.net-responsive",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "datatables.net-responsive@2.2.5",
+    "name": "datatables.net-responsive",
+    "escapedName": "datatables.net-responsive",
+    "rawSpec": "2.2.5",
+    "saveSpec": null,
+    "fetchSpec": "2.2.5"
+  },
+  "_requiredBy": [
+    "/",
+    "/datatables.net-responsive-bs4"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-responsive/-/datatables.net-responsive-2.2.5.tgz",
+  "_spec": "2.2.5",
+  "_where": "/Users/ngunguoksiong/Sites/bootstrap/studio/template/studio_v1.2/template_html",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net": "^1.10.15",
+    "jquery": ">=1.7"
+  },
+  "description": "Responsive for DataTables ",
+  "files": [
+    "js/**/*.js"
+  ],
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "responsive",
+    "DataTables",
+    "jQuery",
+    "table",
+    "DataTables"
+  ],
+  "license": "MIT",
+  "main": "js/dataTables.responsive.js",
+  "name": "datatables.net-responsive",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables-Responsive.git"
+  },
+  "version": "2.2.5"
+}
